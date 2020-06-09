@@ -1,3 +1,4 @@
 .yardoc
 tmp
 doc
+Gemfile.lock
