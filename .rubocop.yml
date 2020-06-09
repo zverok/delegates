@@ -1,0 +1,66 @@
+require: rubocop-rspec
+
+AllCops:
+  Include:
+    - 'lib/**/*.rb'
+    - 'spec/**/*.rb'
+  DisplayCopNames: true
+  TargetRubyVersion: 2.4
+
+Layout/LineLength:
+  Max: 100
+  IgnoredPatterns: ['\# .*'] # ignore long comments
+
+Style/FormatString:
+  EnforcedStyle: percent
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+
+# Mandatory to either enable or disable
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: true
+

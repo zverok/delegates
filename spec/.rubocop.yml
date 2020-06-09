@@ -1,0 +1,13 @@
+inherit_from: ../.rubocop.yml
+
+RSpec/ImplicitBlockExpectation:
+  Enabled: false
+
+RSpec/ImplicitSubject:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
