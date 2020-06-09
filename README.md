@@ -1,5 +1,7 @@
 # Delegates
 
+![build](https://github.com/zverok/delegates/workflows/CI/badge.svg)
+
 This gem is just an extraction of the handy `delegate :method1, :method2, method3, to: :receiver` from ActiveSupport. It seems to be seriously superior to stdlib's [Forwardable](https://ruby-doc.org/stdlib-2.7.1/libdoc/forwardable/rdoc/Forwardable.html), and sometimes I want it in contexts when ActiveSupport and monkey-patching is undesireable.
 
 Usage:
