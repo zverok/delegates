@@ -18,7 +18,7 @@ Then:
 class Employee < Struct.new(:name, :department, :address)
   # ...
   extend Delegates
-  delegates :city, :street, to: :address
+  delegate :city, :street, to: :address
   # ...
 end
 
